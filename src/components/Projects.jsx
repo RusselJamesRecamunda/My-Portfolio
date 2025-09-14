@@ -46,7 +46,6 @@ const Projects = () => {
               <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
               <p className="text-gray-400 mb-4">{project.technologies}</p>
 
-              {/* Pushes button to the bottom */}
               <div className="mt-auto">
                 <a
                   href={project.github}
