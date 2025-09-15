@@ -1,29 +1,53 @@
-import React from "react";
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
-import { FaGithub } from "react-icons/fa";
+import BUQuarta from "../assets/bu-quarta.jpg";
+import BPOBridge from "../assets/bpo-bridge.png";
+import HiFiPrototype from "../assets/prototype.png";
+import DataStructuresInC from "../assets/data-structures.jpg";
+import PersonalPortfolio from "../assets/portfolio.jpg";
+import EmployeeAttendance from "../assets/employee-attendance.jpg";
+import { FaCode, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "BU E-Receipt System",
+    technologies: "Laravel and React JS",
+    image: BUQuarta,
+    project_link: "https://www.facebook.com/share/1JUvmsm82t/",
   },
   {
     id: 2,
-    name: "Blog App",
-    technologies: "MERN Stack",
-    image: bookMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "BPO Bridge: Job Recruitment System",
+    technologies: "Laravel and Bootstrap",
+    image: BPOBridge,
+    project_link: "https://github.com/RusselJamesRecamunda/New_BPO_BRIDGE_SYSTEM.git",
   },
   {
     id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "High Fidelity Prototype",
+    technologies: "HTML, CSS, JavaScript",
+    image: HiFiPrototype,
+    project_link: "https://github.com/RusselJamesRecamunda/High_Fidelity_Prototype.git",
+  },
+  {
+    id: 4,
+    name: "Data Structures and Algorithms in C",
+    technologies: "C Programming Language",
+    image: DataStructuresInC,
+    project_link: "https://github.com/RusselJamesRecamunda/Data_Structures_and_Algorithms.git",
+  },
+  {
+    id: 5,
+    name: "Portfolio Website",
+    technologies: "React JS and Mantine with Tailwind CSS",
+    image: PersonalPortfolio,
+    project_link: "https://github.com/RusselJamesRecamunda/My-Portfolio.git",
+  },
+  {
+    id: 6,
+    name: "Web Development Employee Attendance System Project",
+    technologies: "PHP, MySQL, HTML, CSS, JavaScript",
+    image: EmployeeAttendance,
+    project_link: "https://github.com/RusselJamesRecamunda/MasterProgrammers_Web_Dev_Project.git",
   },
 ];
 
@@ -48,13 +72,13 @@ const Projects = () => {
 
               <div className="mt-auto">
                 <a
-                  href={project.github}
+                  href={project.project_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-[#333] hover:bg-[#444] text-white px-4 py-2 rounded-full transition"
                 >
-                  <FaGithub className="text-xl" />
-                  <span>Go to GitHub Repository</span>
+                  <FaCode className="text-xl" />
+                  <span>Go to Project</span>
                 </a>
               </div>
             </div>

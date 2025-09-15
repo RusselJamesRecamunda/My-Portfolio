@@ -3,6 +3,9 @@ import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import CollegeGraduated from "../assets/bu-logo.png";
 import CiscoNetworkingAcademy from "../assets/cisco-logo.png";
 import Google from "../assets/google-logo.jpg";
+import CodeCademy from "../assets/codecademy.png";
+import AmazonWebServices from "../assets/aws-logo.jpg";
+import Microsoft from "../assets/microsoft_logo.png";
 
 
 const educations = [
@@ -39,7 +42,7 @@ const educations = [
   },
   {
     id: 5,
-    name: "Google Digital Marketing & E-commerce Specialization | Issued July 2025",
+    name: "Google Digital Marketing & E-commerce Specialization | Issued August 2025",
     details: "Google Certification",
     image: Google,
     credential:
@@ -52,6 +55,30 @@ const educations = [
     image: Google,
     credential:
       "https://coursera.org/share/1e521376fec2b28b50bff36a1bf7706d",
+  },
+    {
+    id: 7,
+    name: "Learn React Course | Issued July 2025",
+    details: "CodeCademy Certification",
+    image: CodeCademy,
+    credential:
+      "https://www.codecademy.com/profiles/css0974142707/certificates/af00e5032d0a68cc84879983f5d8333b",
+  },
+  {
+    id: 8,
+    name: "Foundations of Prompt Engineering | Issued July 2025",
+    details: "Amazon Web Services (AWS) Certification",
+    image: AmazonWebServices,
+    credential:
+      "https://skillbuilder.aws/learn/VF6H4SZ1BU/foundations-of-prompt-engineering/7U8XFUVXDT",
+  },
+    {
+    id: 9,
+    name: "Microsoft Introduction to Computers | Issued June 2025",
+    details: "Microsoft Certification",
+    image: Microsoft,
+    credential:
+      "https://coursera.org/share/5c1adfc354f02d83f12905ceac1a1c51",
   },
 ];
 
