@@ -1,4 +1,3 @@
-
 import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -7,18 +6,19 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Service from './components/Service'
+import Education from './components/Education'
 
 function App() {
-
   return (
     <div>
-        <Navbar />
-        <Hero />
-        <About />
-        <Service />
-        <Projects />
-        <Contact />
-        <Footer />
+      <Navbar />
+      <Hero />
+      <About />
+      <Service />
+      <Education />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }
