@@ -37,7 +37,7 @@ const About = () => {
 
        {/* Experience Section */}
         <div className="mt-16">
-          <h2 className="text-4xl font-bold text-center mb-10">Experiences</h2>
+          <h2 className="text-5xl font-bold text-center mb-10">Experiences</h2>
 
           <div className="max-w-3xl mx-auto space-y-10">
             {/* Experience 1 */}
