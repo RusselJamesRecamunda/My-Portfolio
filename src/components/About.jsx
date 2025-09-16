@@ -3,7 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="bg-black text-white py-20" id="about">
+    <div className="bg-gray-900  text-white py-20" id="about">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         {/* Heading */}
         <h2 className="text-5xl font-bold text-center mb-10">About Me</h2>

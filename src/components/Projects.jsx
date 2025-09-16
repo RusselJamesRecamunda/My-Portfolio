@@ -53,7 +53,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="bg-black text-white py-20" id="project">
+    <div className="bg-gray-900 text-white py-20" id="project">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-5xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -75,7 +75,7 @@ const Projects = () => {
                   href={project.project_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-[#333] hover:bg-[#444] text-white px-4 py-2 rounded-full transition"
+                  className="flex items-center justify-center gap-2 bg-[#4dabf7] hover:bg-[#339af0] text-white px-4 py-2 rounded-full transition"
                 >
                   <FaCode className="text-xl" />
                   <span>Go to Project</span>

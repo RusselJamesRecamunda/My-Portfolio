@@ -147,7 +147,7 @@ const Service = () => {
   const serviceChunks = chunkArray(services, 6);
 
   return (
-    <div className="bg-black text-white py-20" id="service">
+    <div className="bg-gray-900 text-white py-20" id="service">
       <div className="container mx-auto px-8 md:px-16 lg:px-24 relative">
         <h2 className="text-5xl font-bold text-center mb-12">My Skills</h2>
 
@@ -168,7 +168,7 @@ const Service = () => {
                       className="bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105"
                     >
                       <div className="flex justify-between items-center">
-                        <h3 className="mt-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                        <h3 className="mt-2 text-2xl font-bold text-transparent bg-clip-text bg-green-400">
                           {service.title}
                         </h3>
                         <span>{service.id}</span>

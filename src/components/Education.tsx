@@ -15,7 +15,7 @@ import AmazonWebServices from "../assets/aws-logo.jpg";
 import Microsoft from "../assets/microsoft_logo.png";
 
 // ✅ Helper: chunk into groups of 6
-const chunkArray = (arr: any[], size: number) => {s
+const chunkArray = (arr: any[], size: number) => {
   return arr.reduce((acc: any[], _, i: number) => {
     if (i % size === 0) acc.push(arr.slice(i, i + size));
     return acc;
@@ -104,7 +104,7 @@ const Education = () => {
   const educationChunks = chunkArray(educations, 3);
 
   return (
-    <div className="bg-black text-white py-20" id="education">
+    <div className="bg-gray-900 text-white py-20" id="education">
       <div className="container mx-auto px-8 md:px-16 lg:px-24 relative">
         <h2 className="text-5xl font-bold text-center mb-12">
           Education and Certifications
