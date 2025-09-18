@@ -73,18 +73,29 @@ const floatingIcons = [
 
 const Hero = () => {
   return (
-    <section className="relative flex items-center justify-center h-screen bg-gray-900 px-10 overflow-hidden">
-      <div className="flex items-center gap-16 z-10">
+    <section id="home" className="relative flex flex-col md:flex-row items-center justify-center h-screen bg-gray-900 px-6 md:px-10 overflow-hidden">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 z-10">
+        {/* Right Side Image - shown first on mobile */}
+        <div className="order-1 md:order-2 mb-6 md:mb-0">
+          <img
+            src={HeroImage}
+            alt="Hero"
+            className="w-48 h-48 md:w-80 md:h-80 object-cover rounded-full shadow-lg border-4 border-green-500"
+          />
+        </div>
+
         {/* Left Content */}
-        <div className="text-left max-w-xl">
+        <div className="order-2 md:order-1 text-center md:text-left max-w-xl">
           <p className="text-gray-300">Hello 👋, I'm</p>
-          <h1 className="text-5xl font-bold text-white">
+          <h1 className="text-3xl md:text-5xl font-bold text-white">
             Russel James Recamunda
           </h1>
-          <h2 className="text-2xl font-semibold text-green-500 mt-2">
+          <h2 className="text-xl md:text-2xl font-semibold text-green-500 mt-2">
             Full Stack Developer and Part-time Assistant
           </h2>
-          <p className="text-gray-400 mt-2">1 Year of Experience</p>
+          <p className="text-gray-400 mt-2 text-sm md:text-base">
+            1 Year of Experience
+          </p>
 
           <a
             href="https://www.linkedin.com/in/russel-james-recamunda/"
@@ -109,7 +120,7 @@ const Hero = () => {
           </a>
 
           {/* Social Icons */}
-          <div className="flex space-x-4 mt-6 text-2xl text-white">
+          <div className="flex justify-center md:justify-start space-x-4 mt-6 text-xl md:text-2xl text-white">
             <a href="https://www.facebook.com/russeljames.recamunda">
               <FaFacebook />
             </a>
@@ -135,16 +146,8 @@ const Hero = () => {
             </a>
           </div>
         </div>
-
-        {/* Right Side Image */}
-        <div>
-          <img
-            src={HeroImage}
-            alt="Hero"
-            className="w-80 h-80 object-cover rounded-full shadow-lg border-4 border-green-500"
-          />
-        </div>
       </div>
+
 
   {/* Floating Background Icons in a streaming river effect */}
     {[...Array(floatingIcons.length * 2)].map((_, i) => { 
