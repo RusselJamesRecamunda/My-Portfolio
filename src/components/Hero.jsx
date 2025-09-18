@@ -150,8 +150,8 @@ const Hero = () => {
     {[...Array(floatingIcons.length * 2)].map((_, i) => { 
       const { Icon, color } = floatingIcons[i % floatingIcons.length];
 
-      const row = Math.floor(i / 6); 
-      const col = i % 6;
+      const row = Math.floor(i / 10); 
+      const col = i % 10;
 
       const startX = -1500; 
       const endX = 2000;    
