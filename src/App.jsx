@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Service from './components/Service'
 import Education from './components/Education'
+import Tools from './components/Tools'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Service />
       <Education />
+      <Tools/>
       <Projects />
       <Contact />
       <Footer />
