@@ -12,7 +12,7 @@ const projects = [
     name: "BU E-Receipt System",
     technologies: "Laravel and React JS",
     image: BUQuarta,
-    project_link: "https://www.facebook.com/share/1JUvmsm82t/",
+    project_link: "https://bu-e-receipt.com/",
   },
   {
     id: 2,
