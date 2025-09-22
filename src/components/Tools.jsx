@@ -57,7 +57,7 @@ const tools = [
   {
     id: 14,
     name: "Perplexity AI",
-     Icon: () => (
+    Icon: () => (
     <img 
     src="https://digino.org/wp-content/uploads/2023/12/perplexity-ai-logo.png" 
     alt="Perplexity AI" 
@@ -67,7 +67,18 @@ const tools = [
     color: "#00A67E",
     link: "https://www.perplexity.ai",
   },
-  { id: 15, name: "GitHub Copilot", Icon: SiGithub, color: "#181717", link: "https://github.com/features/copilot" },
+  { id: 15, 
+    name: "GitHub Copilot", 
+    Icon: () => (
+    <img 
+    src="https://user-images.githubusercontent.com/28068/123712981-02676c80-d839-11eb-919a-96ee0c895e15.png" 
+    alt="Github Copilot" 
+    style={{ width: "3.9em", height: "3em" }} 
+    />
+    ),  
+    color: "#181717", 
+    link: "https://github.com/features/copilot" 
+  },
   { id: 16, name: "VS Code", Icon: TbBrandVscode, color: "#007ACC", link: "https://code.visualstudio.com" },
   { id: 17, name: "Postman", Icon: SiPostman, color: "#FF6C37", link: "https://www.postman.com" },
   { id: 18, name: "Vercel", Icon: SiVercel, color: "#000000", link: "https://vercel.com" },
